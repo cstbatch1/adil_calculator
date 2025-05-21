@@ -8,7 +8,36 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+
+     <div class="calculator">
+        <div class="solar_pannel"></div>
     
+         <input type="text" id="display" class="display">
+    <div class="buttons">
+        
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button  onclick="appendValue('+')" class="black">+</button>
+
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button  onclick="appendValue('-')"class="black">-</button>
+
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button  onclick="appendValue('*')"class="black">x</button>
+        
+        <button onclick="clearField('')" class="red">AC</button>
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="calculation()" class="black">=</button>
+        <button onclick="appendValue('/')" class="black">/</button>
+    </div>
+    </div> 
+    <br>
+
 
     <!-- JS link -->
      <script src="/script.js"></script>
